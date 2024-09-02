@@ -1,0 +1,15 @@
+###
+GET http://localhost:8080/api/users
+
+###
+GET http://localhost:8080/api/userroles
+
+###
+POST http://localhost:8080/api/import/users
+
+< data/users.csv
+
+###
+POST http://localhost:8080/api/import/roles
+
+< data/roles.csv
